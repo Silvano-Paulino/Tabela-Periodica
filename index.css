@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #202e37;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 6px 0 20px 0;
+}
+
+.tabela {
+    width: 900px;
+    height: 450px;
+}
+
+tr {
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-left: 14px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+span {
+    font-size: 10px;
+}
+
+.elimina {
+    border: none;
+}
+
+/* My colors */
+
+.yellow {
+    border: solid 3px #c7e769;
+}
+
+.green {
+    border: solid 3px #6b9b58;    
+}
+
+.blue {
+    border: solid 3px #53c4c4;
+}
+
+.red {
+    border: solid 3px #cf7777;
+}
+
+.yellow h3, .yellow span {
+    color: #c7e769;
+}
+
+.green h3, .green span {
+    color: #6b9b58;
+}
+
+.blue h3, .blue span {
+    color: #53c4c4;
+}
+
+.red h3, .red span {
+    color: #cf7777;
+}
+
+.AreaInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.divC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cor {
+    width: 22px;
+    height: 24px;
+}
+
+.divC p {
+    padding-top: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.yellowC {
+    background-color: #c7e769;
+}
+
+.greenC {
+    background-color: #6b9b58;
+}
+
+.blueC {
+    background-color: #53c4c4;
+}
+
+.redC {
+    background-color: #cf7777;
+}
+
+.baixo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 14px;
+}
+
+.baixo p {
+    color: #dddddd;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.t {
+    padding-top: 3px;
+}
